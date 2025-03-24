@@ -1,1 +1,24 @@
+# macOS system files
 .DS_Store
+
+# Rust compiled binaries
+*.exe
+*.out
+*.bin
+*.rs.bk
+
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+*.bin
+*.elf
+
+
+
+
+# VS Code settings
+.vscode/
