@@ -52,7 +52,16 @@ void quick_sort(vector<int>& arr, int low, int high) {//avg: O(nlogn) worst: O(n
 }
 int main() {
 
-    vector<int> arr = {5,4,3,6,7,9,0,1,2}; 
+   
+    int n;
+    cout<<"Input the size: ";
+    cin>>n;
+    vector<int> arr (n); 
+    cout<<"Input the array elements: ";
+    for(int i =0;i<n;i++){
+        cin>>arr[i];
+    }
+
     quick_sort(arr, 0, arr.size() - 1);
     cout<<"Sorted Array: ";
     for (int num : arr) cout << num << " ";
